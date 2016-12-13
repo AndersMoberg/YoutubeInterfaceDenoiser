@@ -1,44 +1,56 @@
 #feed-main-what_to_watch {
-  display: none;
+    display: none;
 }
+
 li a[href*="/feed/trending"] {
-  display: none !important;
+    display: none !important;
 }
+
 yt-uix-button-epic-nav-item[href*="/feed/trending"] {
-  display: none !important;
+    display: none !important;
 }
+
 ul.yt-lockup-meta-info li:first-child {
-  display: none !important;
+    display: none !important;
 }
+
 .yt-lockup-meta-info>li:before {
-  content: none !important;
+    content: none !important;
 }
-.yt-subscriber-count,
-.yt-short-subscriber-count {
-  display: none !important;
+
+.yt-subscriber-count, .yt-short-subscriber-count {
+    display: none !important;
 }
+
 #guide-subs-footer-container {
-  display: none !important;
+    display: none !important;
 }
+
 .yt-subscription-button-subscriber-count-branded-horizontal {
-  display: none !important;
+    display: none !important;
 }
+
 .stat.view-count {
-  display: none !important;
+    display: none !important;
 }
+
 div#watch7-views-info {
-  display: none !important;
+    display: none !important;
 }
-button.like-button-renderer-like-button span.yt-uix-button-content,
-button.like-button-renderer-dislike-button span.yt-uix-button-content{
-  display: none !important;
+
+button.like-button-renderer-like-button span.yt-uix-button-content, button.like-button-renderer-dislike-button span.yt-uix-button-content {
+    display: none !important;
 }
+
 #watch7-sidebar-contents {
     min-height: 0 !important;
+    padding-bottom: 0;
 }
-#watch7-sidebar-modules .watch-sidebar-section:nth-child(2) {
-  display: none !important;
+
+#watch-related {
+    display: none !important;
 }
+
 #watch-discussion {
-  display: none !important;
+    display: none !important;
 }
